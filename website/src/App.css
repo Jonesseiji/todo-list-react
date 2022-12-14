@@ -1,14 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: rgb(1, 9, 56);
 }
 
-.boxTarefas{
+.boxTarefas {
   width: 80%;
   max-width: 800px;
   background-color: white;
@@ -17,7 +17,7 @@ body{
   border-radius: 10px;
 }
 
-.boxTarefas h2{
+.boxTarefas h2 {
   text-align: center;
   margin-bottom: 30px;
 }
@@ -29,11 +29,11 @@ body{
   border-bottom: 2px dotted #ccc;
 }
 
-.boxTarefas p:hover{
+.boxTarefas p:hover {
   font-size: 20px;
 }
 
-.addTarefa{
+.addTarefa {
   position: absolute;
   right: 8px;
   bottom: 8px;
@@ -48,19 +48,18 @@ body{
   border: 1px rgb(117, 177, 27) solid;
 }
 
-.addTarefa p{
+.addTarefa p {
   text-align: center;
 }
 
-.addTarefa:hover{
+.addTarefa:hover {
   background-color: rgb(117, 177, 27);
   width: 53px;
   height: 53px;
   font-size: 25pt;
 }
 
-
-.modal{
+.modal {
   position: fixed;
   left: 0;
   top: 0;
@@ -70,7 +69,7 @@ body{
   z-index: 9999;
 }
 
-.modalContent{
+.modalContent {
   max-width: 600px;
   padding: 40px 20px;
   background-color: white;
@@ -79,4 +78,12 @@ body{
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
+}
+.modalContent button {
+  padding: 1px 5px 1px 5px;
+  margin-left: 8px;
+}
+
+.modalContent button:hover {
+  cursor: pointer;
 }
